@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="Footer">
       <div className="Contact">
-        <p>If you’d like to help us build it, start a community currency of your own, or just learn more about Tellor, please reach out to <a alt="Mail to chorus@tellor.io" href="mailto:chorus@tellor.io">chorus@tellor.io</a> or check out our website and subscribe for updates: <a href="www.tellor.io" alt="www.tellor.io">www.tellor.io</a>.</p>
+        <p>If you’d like to help us build it, start a community currency of your own, or just learn more about Tellor, please reach out to <a alt="Mail to chorus@tellor.io" href="mailto:chorus@tellor.io">chorus@tellor.io</a> or check out our website and subscribe for updates: <a href="https://tellor.io" alt="https://tellor.io">www.tellor.io</a>.</p>
       </div>
       <div className="ActualFooter">
         <div className="LogoBox">
