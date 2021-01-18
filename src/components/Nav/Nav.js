@@ -5,7 +5,9 @@ import { slide as Menu } from 'react-burger-menu';
 import { useMediaQuery } from 'react-responsive';
 
 const Nav = (props) => {
-    const isMobile = useMediaQuery({query: '(max-width: 810px)'})
+    const isMobile = useMediaQuery({query: '(max-width: 810px) and (-webkit-min-device-pixel-ratio: 2)'});
+
+   
     const [menuOpen,setMenuOpen] = useState(false);
 
     const handleClick = (ref) => {
